@@ -18,8 +18,6 @@ router.get("/all", getAllUsers);
 router.post("/new", register);
 router.get("/special", specialFunc);
 
-// /userid/abhi
-
 //one important thing >> if on same URL having different requests then we can do -
 
 router
